@@ -1,23 +1,25 @@
 shitty TUI/CLI for the build of KJM I am using.
+
 needs work, but it works.
 
-  -hash-type string
-        Hashcat mode number (e.g., 0 for MD5).
-  -hashes string
-        String of hashes, separated by newlines.
-  -hashes-file string
-        Path to a file containing hashes.
-  -i    Run in interactive TUI mode.
-  -mask string
-        Mask to use (for mask mode).
-  -mode string
-        Attack mode ('wordlist' or 'mask'). (default "wordlist")
-  -rule string
-        Rules file to use (optional, for wordlist mode).
-  -session-name string
-        Name for the cracking session. (default "CLI Job")
-  -wordlist string
-        Wordlist file to use (for wordlist mode).
+-hash-type string  
+      Hashcat mode number (e.g., 0 for MD5).  
+-hashes string  
+      String of hashes, separated by newlines.  
+-hashes-file string  
+      Path to a file containing hashes.  
+-i 
+      Run in interactive TUI mode.  
+-mask string  
+      Mask to use (for mask mode).  
+-mode string  
+      Attack mode ('wordlist' or 'mask'). (default "wordlist")  
+-rule string  
+      Rules file to use (optional, for wordlist mode).  
+-session-name string  
+      Name for the cracking session. (default "CLI Job")  
+-wordlist string  
+      Wordlist file to use (for wordlist mode).
 
 <img width="876" height="261" alt="Screenshot 2025-08-30 080251" src="https://github.com/user-attachments/assets/7524568f-1831-410e-91ba-8a4c8710f3a9" />
 <img width="861" height="620" alt="Screenshot 2025-08-30 075540" src="https://github.com/user-attachments/assets/a1d44011-9c93-4f7e-b3d9-507322b64a20" />
